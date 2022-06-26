@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8151E882867C41B00EF8111 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E872867C41B00EF8111 /* Card.swift */; };
+		D8151E8A2867C4E800EF8111 /* SmallContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E892867C4E800EF8111 /* SmallContent.swift */; };
+		D8151E8E2867C80E00EF8111 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E8D2867C80E00EF8111 /* Model.swift */; };
+		D8151E932867CB4B00EF8111 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E8D2867C80E00EF8111 /* Model.swift */; };
+		D8151E942867CC1B00EF8111 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E872867C41B00EF8111 /* Card.swift */; };
+		D8151E952867CC6100EF8111 /* SmallContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E892867C4E800EF8111 /* SmallContent.swift */; };
+		D8151E9A2867D38600EF8111 /* StationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FCE992867BF5C00D70850 /* StationList.swift */; };
+		D8151E9C2867DA3E00EF8111 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E9B2867DA3E00EF8111 /* OrderView.swift */; };
+		D8151E9D2867DBC700EF8111 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E9B2867DA3E00EF8111 /* OrderView.swift */; };
+		D8151E9F2867DFD600EF8111 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E9E2867DFD600EF8111 /* ButtonView.swift */; };
+		D8151EA02867DFD600EF8111 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151E9E2867DFD600EF8111 /* ButtonView.swift */; };
+		D8151EA22868580200EF8111 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EA12868580200EF8111 /* Background.swift */; };
+		D8151EA32868580200EF8111 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EA12868580200EF8111 /* Background.swift */; };
+		D8151EA528686B1800EF8111 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EA428686B1800EF8111 /* SuccessView.swift */; };
+		D8151EA628686B1800EF8111 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EA428686B1800EF8111 /* SuccessView.swift */; };
+		D8151EA828686C4300EF8111 /* HeaderSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EA728686C4300EF8111 /* HeaderSecond.swift */; };
+		D8151EA928686C4300EF8111 /* HeaderSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EA728686C4300EF8111 /* HeaderSecond.swift */; };
+		D8151EAB2868715800EF8111 /* InteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EAA2868715800EF8111 /* InteractiveView.swift */; };
+		D8151EAC2868715800EF8111 /* InteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EAA2868715800EF8111 /* InteractiveView.swift */; };
+		D8151EAE2868899F00EF8111 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EAD2868899F00EF8111 /* DividerView.swift */; };
+		D8151EAF2868899F00EF8111 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8151EAD2868899F00EF8111 /* DividerView.swift */; };
+		D82FCE9A2867BF5C00D70850 /* StationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FCE992867BF5C00D70850 /* StationList.swift */; };
+		D86FA3852868933900357337 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D86FA3842868933900357337 /* sound.mp3 */; };
+		D86FA3882868934E00357337 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D86FA3872868934E00357337 /* sound.mp3 */; };
+		D88164922867578E008A005E /* TravelCityEAVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88164912867578E008A005E /* TravelCityEAVApp.swift */; };
+		D88164942867578E008A005E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88164932867578E008A005E /* Home.swift */; };
+		D881649628675792008A005E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D881649528675792008A005E /* Assets.xcassets */; };
+		D881649928675792008A005E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D881649828675792008A005E /* Preview Assets.xcassets */; };
+		D88164A6286757BF008A005E /* TravelCityEAVAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88164A5286757BF008A005E /* TravelCityEAVAppClipApp.swift */; };
+		D88164A8286757BF008A005E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88164A7286757BF008A005E /* Home.swift */; };
+		D88164AA286757C0008A005E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88164A9286757C0008A005E /* Assets.xcassets */; };
+		D88164AD286757C0008A005E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88164AC286757C0008A005E /* Preview Assets.xcassets */; };
+		D88164B2286757C0008A005E /* Travel City EAVAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = D88164A3286757BF008A005E /* Travel City EAVAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D881AB8B2867B37F00EBC353 /* GTWalsheimPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D881AB892867B37F00EBC353 /* GTWalsheimPro-Regular.ttf */; };
+		D881AB8D2867B37F00EBC353 /* GTWalsheimPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D881AB8A2867B37F00EBC353 /* GTWalsheimPro-Medium.ttf */; };
+		D881AB932867B39B00EBC353 /* GTWalsheimPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D881AB922867B39600EBC353 /* GTWalsheimPro-Medium.ttf */; };
+		D881AB942867B39B00EBC353 /* GTWalsheimPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D881AB912867B39600EBC353 /* GTWalsheimPro-Regular.ttf */; };
+		D881AB9B2867B60D00EBC353 /* HeaderMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881AB9A2867B60D00EBC353 /* HeaderMain.swift */; };
+		D881AB9C2867B60D00EBC353 /* HeaderMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881AB9A2867B60D00EBC353 /* HeaderMain.swift */; };
+		D881AB9E2867B65E00EBC353 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881AB9D2867B65E00EBC353 /* SearchBar.swift */; };
+		D881AB9F2867B65E00EBC353 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881AB9D2867B65E00EBC353 /* SearchBar.swift */; };
+		D881ABA12867B6EA00EBC353 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881ABA02867B6EA00EBC353 /* Content.swift */; };
+		D881ABA22867B6EA00EBC353 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881ABA02867B6EA00EBC353 /* Content.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D88164B0286757C0008A005E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88164862867578E008A005E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88164A2286757BF008A005E;
+			remoteInfo = ConwayAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D88164B6286757C0008A005E /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				D88164B2286757C0008A005E /* Travel City EAVAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8151E872867C41B00EF8111 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D8151E892867C4E800EF8111 /* SmallContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallContent.swift; sourceTree = "<group>"; };
+		D8151E8D2867C80E00EF8111 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D8151E9B2867DA3E00EF8111 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		D8151E9E2867DFD600EF8111 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		D8151EA12868580200EF8111 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		D8151EA428686B1800EF8111 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		D8151EA728686C4300EF8111 /* HeaderSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSecond.swift; sourceTree = "<group>"; };
+		D8151EAA2868715800EF8111 /* InteractiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveView.swift; sourceTree = "<group>"; };
+		D8151EAD2868899F00EF8111 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		D82FCE992867BF5C00D70850 /* StationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationList.swift; sourceTree = "<group>"; };
+		D86FA3842868933900357337 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		D86FA3872868934E00357337 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		D881648E2867578E008A005E /* Travel City EAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel City EAV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88164912867578E008A005E /* TravelCityEAVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCityEAVApp.swift; sourceTree = "<group>"; };
+		D88164932867578E008A005E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D881649528675792008A005E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D881649828675792008A005E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D88164A3286757BF008A005E /* Travel City EAVAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel City EAVAppClip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88164A5286757BF008A005E /* TravelCityEAVAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCityEAVAppClipApp.swift; sourceTree = "<group>"; };
+		D88164A7286757BF008A005E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D88164A9286757C0008A005E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88164AC286757C0008A005E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D88164AE286757C0008A005E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88164AF286757C0008A005E /* TravelCityEAVAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TravelCityEAVAppClip.entitlements; sourceTree = "<group>"; };
+		D881AB892867B37F00EBC353 /* GTWalsheimPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Regular.ttf"; sourceTree = "<group>"; };
+		D881AB8A2867B37F00EBC353 /* GTWalsheimPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Medium.ttf"; sourceTree = "<group>"; };
+		D881AB912867B39600EBC353 /* GTWalsheimPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Regular.ttf"; sourceTree = "<group>"; };
+		D881AB922867B39600EBC353 /* GTWalsheimPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Medium.ttf"; sourceTree = "<group>"; };
+		D881AB952867B3D500EBC353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D881AB9A2867B60D00EBC353 /* HeaderMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMain.swift; sourceTree = "<group>"; };
+		D881AB9D2867B65E00EBC353 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		D881ABA02867B6EA00EBC353 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D881648B2867578E008A005E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88164A0286757BF008A005E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8151E8F2867C81700EF8111 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8151E8D2867C80E00EF8111 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8151E902867C9C200EF8111 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D82FCE982867BB8A00D70850 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D88164A7286757BF008A005E /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D86FA3832868932700357337 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				D86FA3842868933900357337 /* sound.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		D86FA3862868933D00357337 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				D86FA3872868934E00357337 /* sound.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		D88164852867578E008A005E = {
+			isa = PBXGroup;
+			children = (
+				D88164902867578E008A005E /* TravelCityEAV */,
+				D88164A4286757BF008A005E /* TravelCityEAVAppClip */,
+				D881648F2867578E008A005E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D881648F2867578E008A005E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D881648E2867578E008A005E /* Travel City EAV.app */,
+				D88164A3286757BF008A005E /* Travel City EAVAppClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88164902867578E008A005E /* TravelCityEAV */ = {
+			isa = PBXGroup;
+			children = (
+				D881AB952867B3D500EBC353 /* Info.plist */,
+				D88164912867578E008A005E /* TravelCityEAVApp.swift */,
+				D881AB882867B2F400EBC353 /* Fonts */,
+				D86FA3832868932700357337 /* Sound */,
+				D881AB992867B59A00EBC353 /* View */,
+				D8151E902867C9C200EF8111 /* ViewModel */,
+				D8151E8F2867C81700EF8111 /* Model */,
+				D881649528675792008A005E /* Assets.xcassets */,
+				D881649728675792008A005E /* Preview Content */,
+			);
+			path = TravelCityEAV;
+			sourceTree = "<group>";
+		};
+		D881649728675792008A005E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D881649828675792008A005E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D88164A4286757BF008A005E /* TravelCityEAVAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				D88164AE286757C0008A005E /* Info.plist */,
+				D88164AF286757C0008A005E /* TravelCityEAVAppClip.entitlements */,
+				D88164A5286757BF008A005E /* TravelCityEAVAppClipApp.swift */,
+				D881AB902867B39600EBC353 /* Fonts */,
+				D86FA3862868933D00357337 /* Sound */,
+				D82FCE982867BB8A00D70850 /* View */,
+				D88164A9286757C0008A005E /* Assets.xcassets */,
+				D88164AB286757C0008A005E /* Preview Content */,
+			);
+			path = TravelCityEAVAppClip;
+			sourceTree = "<group>";
+		};
+		D88164AB286757C0008A005E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D88164AC286757C0008A005E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D881AB882867B2F400EBC353 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D881AB8A2867B37F00EBC353 /* GTWalsheimPro-Medium.ttf */,
+				D881AB892867B37F00EBC353 /* GTWalsheimPro-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D881AB902867B39600EBC353 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D881AB922867B39600EBC353 /* GTWalsheimPro-Medium.ttf */,
+				D881AB912867B39600EBC353 /* GTWalsheimPro-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D881AB982867B58C00EBC353 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D881AB9A2867B60D00EBC353 /* HeaderMain.swift */,
+				D8151EA728686C4300EF8111 /* HeaderSecond.swift */,
+				D881AB9D2867B65E00EBC353 /* SearchBar.swift */,
+				D881ABA02867B6EA00EBC353 /* Content.swift */,
+				D8151E892867C4E800EF8111 /* SmallContent.swift */,
+				D8151E872867C41B00EF8111 /* Card.swift */,
+				D8151E9E2867DFD600EF8111 /* ButtonView.swift */,
+				D8151EA12868580200EF8111 /* Background.swift */,
+				D8151EAD2868899F00EF8111 /* DividerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D881AB992867B59A00EBC353 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D881AB982867B58C00EBC353 /* Components */,
+				D88164932867578E008A005E /* Home.swift */,
+				D82FCE992867BF5C00D70850 /* StationList.swift */,
+				D8151E9B2867DA3E00EF8111 /* OrderView.swift */,
+				D8151EA428686B1800EF8111 /* SuccessView.swift */,
+				D8151EAA2868715800EF8111 /* InteractiveView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D881648D2867578E008A005E /* Travel City EAV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D881649C28675792008A005E /* Build configuration list for PBXNativeTarget "Travel City EAV" */;
+			buildPhases = (
+				D881648A2867578E008A005E /* Sources */,
+				D881648B2867578E008A005E /* Frameworks */,
+				D881648C2867578E008A005E /* Resources */,
+				D88164B6286757C0008A005E /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88164B1286757C0008A005E /* PBXTargetDependency */,
+			);
+			name = "Travel City EAV";
+			productName = Conway;
+			productReference = D881648E2867578E008A005E /* Travel City EAV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D88164A2286757BF008A005E /* Travel City EAVAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88164B3286757C0008A005E /* Build configuration list for PBXNativeTarget "Travel City EAVAppClip" */;
+			buildPhases = (
+				D881649F286757BF008A005E /* Sources */,
+				D88164A0286757BF008A005E /* Frameworks */,
+				D88164A1286757BF008A005E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel City EAVAppClip";
+			productName = ConwayAppClip;
+			productReference = D88164A3286757BF008A005E /* Travel City EAVAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88164862867578E008A005E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D881648D2867578E008A005E = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					D88164A2286757BF008A005E = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = D88164892867578E008A005E /* Build configuration list for PBXProject "Travel City EAV" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88164852867578E008A005E;
+			productRefGroup = D881648F2867578E008A005E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D881648D2867578E008A005E /* Travel City EAV */,
+				D88164A2286757BF008A005E /* Travel City EAVAppClip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D881648C2867578E008A005E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D881AB8D2867B37F00EBC353 /* GTWalsheimPro-Medium.ttf in Resources */,
+				D881649928675792008A005E /* Preview Assets.xcassets in Resources */,
+				D881AB8B2867B37F00EBC353 /* GTWalsheimPro-Regular.ttf in Resources */,
+				D881649628675792008A005E /* Assets.xcassets in Resources */,
+				D86FA3852868933900357337 /* sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88164A1286757BF008A005E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D881AB932867B39B00EBC353 /* GTWalsheimPro-Medium.ttf in Resources */,
+				D88164AD286757C0008A005E /* Preview Assets.xcassets in Resources */,
+				D881AB942867B39B00EBC353 /* GTWalsheimPro-Regular.ttf in Resources */,
+				D88164AA286757C0008A005E /* Assets.xcassets in Resources */,
+				D86FA3882868934E00357337 /* sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D881648A2867578E008A005E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82FCE9A2867BF5C00D70850 /* StationList.swift in Sources */,
+				D8151EA22868580200EF8111 /* Background.swift in Sources */,
+				D8151E9C2867DA3E00EF8111 /* OrderView.swift in Sources */,
+				D8151E8A2867C4E800EF8111 /* SmallContent.swift in Sources */,
+				D88164942867578E008A005E /* Home.swift in Sources */,
+				D8151EA828686C4300EF8111 /* HeaderSecond.swift in Sources */,
+				D8151EAB2868715800EF8111 /* InteractiveView.swift in Sources */,
+				D8151EA528686B1800EF8111 /* SuccessView.swift in Sources */,
+				D8151E882867C41B00EF8111 /* Card.swift in Sources */,
+				D8151E8E2867C80E00EF8111 /* Model.swift in Sources */,
+				D8151E9F2867DFD600EF8111 /* ButtonView.swift in Sources */,
+				D881AB9E2867B65E00EBC353 /* SearchBar.swift in Sources */,
+				D881AB9B2867B60D00EBC353 /* HeaderMain.swift in Sources */,
+				D881ABA12867B6EA00EBC353 /* Content.swift in Sources */,
+				D8151EAE2868899F00EF8111 /* DividerView.swift in Sources */,
+				D88164922867578E008A005E /* TravelCityEAVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D881649F286757BF008A005E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8151E932867CB4B00EF8111 /* Model.swift in Sources */,
+				D8151E952867CC6100EF8111 /* SmallContent.swift in Sources */,
+				D88164A8286757BF008A005E /* Home.swift in Sources */,
+				D881AB9F2867B65E00EBC353 /* SearchBar.swift in Sources */,
+				D881AB9C2867B60D00EBC353 /* HeaderMain.swift in Sources */,
+				D8151E9A2867D38600EF8111 /* StationList.swift in Sources */,
+				D8151EAC2868715800EF8111 /* InteractiveView.swift in Sources */,
+				D8151EA928686C4300EF8111 /* HeaderSecond.swift in Sources */,
+				D8151EA628686B1800EF8111 /* SuccessView.swift in Sources */,
+				D881ABA22867B6EA00EBC353 /* Content.swift in Sources */,
+				D8151E9D2867DBC700EF8111 /* OrderView.swift in Sources */,
+				D88164A6286757BF008A005E /* TravelCityEAVAppClipApp.swift in Sources */,
+				D8151EA02867DFD600EF8111 /* ButtonView.swift in Sources */,
+				D8151EA32868580200EF8111 /* Background.swift in Sources */,
+				D8151EAF2868899F00EF8111 /* DividerView.swift in Sources */,
+				D8151E942867CC1B00EF8111 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D88164B1286757C0008A005E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88164A2286757BF008A005E /* Travel City EAVAppClip */;
+			targetProxy = D88164B0286757C0008A005E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D881649A28675792008A005E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D881649B28675792008A005E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D881649D28675792008A005E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelCityEAV/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GWJJ878N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelCityEAV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel City EAV";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostikov.vitaly.TravelCityEAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D881649E28675792008A005E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelCityEAV/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GWJJ878N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelCityEAV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel City EAV";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostikov.vitaly.TravelCityEAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D88164B4286757C0008A005E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TravelCityEAVAppClip/TravelCityEAVAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelCityEAVAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GWJJ878N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelCityEAVAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel City EAV";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostikov.vitaly.TravelCityEAV.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88164B5286757C0008A005E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TravelCityEAVAppClip/TravelCityEAVAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelCityEAVAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GWJJ878N9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelCityEAVAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel City EAV";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostikov.vitaly.TravelCityEAV.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88164892867578E008A005E /* Build configuration list for PBXProject "Travel City EAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D881649A28675792008A005E /* Debug */,
+				D881649B28675792008A005E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D881649C28675792008A005E /* Build configuration list for PBXNativeTarget "Travel City EAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D881649D28675792008A005E /* Debug */,
+				D881649E28675792008A005E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88164B3286757C0008A005E /* Build configuration list for PBXNativeTarget "Travel City EAVAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88164B4286757C0008A005E /* Debug */,
+				D88164B5286757C0008A005E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88164862867578E008A005E /* Project object */;
+}
